@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 
 app.get('/', async (req, res) => {
-
+    res.send("ORDERS API")
 })
 
 app.listen(8000, () => {
